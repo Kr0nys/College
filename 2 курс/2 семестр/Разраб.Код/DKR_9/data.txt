@@ -1,0 +1,5 @@
+Dr Web,Доктор Веб,True,True,drweb.ru,16,16.03.2002
+Malwarebytes Free,Malwarebytes,False,True,ru.malwarebytes.com,16,12.12.2006
+Kasperskiy,Лаборатория Касперского,True,True,kaspersky.ru,19,26.06.1997
+,,False,False,,,  .  .    
+,,False,False,,,  .  .    

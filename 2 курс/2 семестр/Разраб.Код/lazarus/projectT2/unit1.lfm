@@ -1,0 +1,87 @@
+object Form1: TForm1
+  Left = 1233
+  Height = 379
+  Top = 265
+  Width = 491
+  Caption = 'Form1'
+  ClientHeight = 379
+  ClientWidth = 491
+  DesignTimePPI = 120
+  LCLVersion = '3.2.0.0'
+  object Label1: TLabel
+    Left = 32
+    Height = 20
+    Top = 68
+    Width = 191
+    Caption = 'Введите площадь квадрата:'
+  end
+  object Edit1: TEdit
+    Left = 248
+    Height = 28
+    Top = 66
+    Width = 112
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 20
+    Top = 120
+    Width = 141
+    Caption = 'Сторона квардрата: '
+  end
+  object Edit2: TEdit
+    Left = 248
+    Height = 28
+    Top = 120
+    Width = 113
+    TabOrder = 1
+    OnChange = Edit2Change
+  end
+  object Label3: TLabel
+    Left = 32
+    Height = 20
+    Top = 176
+    Width = 78
+    Caption = 'Диагональ:'
+  end
+  object Edit3: TEdit
+    Left = 248
+    Height = 28
+    Top = 176
+    Width = 113
+    TabOrder = 2
+  end
+  object Label4: TLabel
+    Left = 32
+    Height = 20
+    Top = 232
+    Width = 309
+    Caption = 'Площадь круга описанного вокруг квадрата'
+    OnClick = Label4Click
+  end
+  object Edit4: TEdit
+    Left = 360
+    Height = 28
+    Top = 232
+    Width = 113
+    TabOrder = 3
+  end
+  object Button1: TButton
+    Left = 32
+    Height = 48
+    Top = 280
+    Width = 118
+    Caption = 'Очистка'
+    TabOrder = 4
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 328
+    Height = 63
+    Top = 280
+    Width = 136
+    Caption = 'Выполнить'
+    TabOrder = 5
+    OnClick = Button2Click
+  end
+end
